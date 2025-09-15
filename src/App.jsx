@@ -1,5 +1,5 @@
 import "./App.css";
-import { Meny } from "./assets/Meny";
+import { Meny } from "./data/Meny";
 import { Menu } from "./components/Menu";
 
 function App() {
