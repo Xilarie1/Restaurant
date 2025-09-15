@@ -1,10 +1,12 @@
 export function Dish({ data }) {
+  const { tittel, pris, ingredienser, kategori } = data;
+
   return (
     <>
-      <h2>{data.tittel}</h2>
-      <p>Pris: {data.pris}</p>
-      <p>Ingredienser: {data.ingredienser}</p>
-      <p>Kategori: {data.kategori}</p>
+      <h2>{tittel}</h2>
+      <p>Pris: {pris}</p>
+      <p>Ingredienser: {ingredienser}</p>
+      <p>Kategori: {kategori}</p>
     </>
   );
 }
