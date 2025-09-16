@@ -1,6 +1,7 @@
 .menu {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+  width: 98vw;
   gap: 1.5rem;
   padding: 2rem;
 }
